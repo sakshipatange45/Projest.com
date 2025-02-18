@@ -1,0 +1,44 @@
+.main-box {
+    width: 200px;
+    height: 200px;
+    background-color: #0c0c99;
+    position: relative;
+}
+.center-box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
+
+.corner-box {
+    width: 50px;
+    height: 50px;
+    background-color: #3bc158;
+    position: absolute;
+}
+
+/* Positioning each corner box */
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
