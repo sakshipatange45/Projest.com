@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease;
+}
+
+.App.clear {
+  background-image: url('https://example.com/sunny-background.jpg');
+}
+
+.App.clouds {
+  background-image: url('https://example.com/cloudy-background.jpg');
+}
+
+.App.rain {
+  background-image: url('https://example.com/rainy-background.jpg');
+}
+
+.App.snow {
+  background-image: url('https://example.com/snowy-background.jpg');
+}
+
+.App.thunderstorm {
+  background-image: url('https://example.com/stormy-background.jpg');
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-card {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-icon {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.temperature {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.weather-condition {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.weather-details {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.loading-spinner {
+  margin: 20px;
+}
+
+.spinner-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

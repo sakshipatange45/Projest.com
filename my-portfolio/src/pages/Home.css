@@ -1,0 +1,39 @@
+/* src/pages/Home.css */
+.home {
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+  background-image: url('../assets/home page.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 77vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(28, 22, 22);
+}
+
+.home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 1;
+}
+
+.home h1{
+  font-size: medium;
+  position: relative;
+  z-index: 5;
+  color: rgb(23, 25, 25);
+}
+.home p {
+  font-size: 12;
+  position: relative;
+  z-index: 7;
+  color: rgb(161, 243, 60); /* Ensure text is above the overlay */
+}

@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+  }
+  
+  .navbar.dark {
+    background-color: var(--secondary-color);
+    color: var(--dark-text-color);
+  }
+  
+  .navbar a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+  }
+  
+  .navbar.dark a {
+    color: var(--dark-text-color);
+  }
+  
+  .navbar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0.5rem 0;
+    }
+  
+    .navbar a {
+      margin: 0 0.5rem;
+    }
+  }

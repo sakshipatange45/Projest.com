@@ -1,0 +1,14 @@
+.about {
+    padding: 10rem 0;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }

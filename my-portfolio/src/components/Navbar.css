@@ -1,0 +1,21 @@
+/* src/components/Navbar.css */
+nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav ul li {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  nav ul li:hover {
+    color: #61dafb;
+  }

@@ -1,0 +1,23 @@
+.skills {
+    padding: 2rem 0;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-bar {
+    background-color: var(--border-color);
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+  
+  .skill-progress {
+    background-color: var(--primary-color);
+    color: var(--dark-text-color);
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 0.25rem 0;
+  }
