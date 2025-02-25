@@ -1,0 +1,176 @@
+/* src/styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7fafc;
+    color: #2d3748;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #4299e1;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  header a:hover {
+    opacity: 0.8;
+  }
+  
+  header nav a {
+    margin-left: 1rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #4299e1;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Home Page Styles */
+  .home {
+    background-image: url('../assets/about page.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 2rem 0;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2d3748;
+  }
+  
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Post Card Styles */
+  .post-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .post-card h2 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #2d3748;
+  }
+  
+  .post-card p {
+    margin: 1rem;
+    color: #4a5568;
+  }
+  
+  .post-card .post-date {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    color: #718096;
+  }
+  
+  .post-card .post-date svg {
+    margin-right: 0.5rem;
+  }
+  
+  /* Create Post Page Styles */
+  .create-post {
+    background-image: url('https://source.unsplash.com/1600x900/?writing,blog');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 2rem 0;
+  }
+  
+  .create-post h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2d3748;
+  }
+  
+  .create-post form {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-post label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+  }
+  
+  .create-post input,
+  .create-post textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .create-post input:focus,
+  .create-post textarea:focus {
+    border-color: #4299e1;
+    outline: none;
+  }
+  
+  .create-post button {
+    background: #4299e1;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .create-post button:hover {
+    background: #3182ce;
+  }

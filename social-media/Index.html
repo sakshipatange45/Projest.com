@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Auth Section -->
+        <div id="auth-section">
+            <h1>Welcome to Social Clone</h1>
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <button id="login-btn">Login</button>
+            <button id="signup-btn">Sign Up</button>
+        </div>
+
+        <!-- Post Section -->
+        <div id="post-form" style="display: none;">
+            <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+            <input type="file" id="image-upload" accept="image/*">
+            <div id="image-preview"></div>
+            <button id="post-btn">Post</button>
+        </div>
+
+        <!-- Feed Section -->
+        <div id="feed"></div>
+
+        <!-- Members Section -->
+        <div id="members" style="display: none;">
+            <h2>Members</h2>
+            <div id="members-list"></div>
+        </div>
+
+        <!-- Logout Button -->
+        <button id="logout-btn" style="display: none;">Logout</button>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>

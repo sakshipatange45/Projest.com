@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-preview img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#feed {
+    margin-top: 20px;
+}
+
+.post {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.post-actions button:hover {
+    text-decoration: underline;
+}
+
+#members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.member img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
